@@ -6,10 +6,11 @@
 .header{
     height: 100vh;
     width: 100%;
+    background-position: center;
     background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
     background-size: cover;
-    background-position: center;
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -71,9 +72,37 @@ h3{
     font-size: 25px;
     margin-bottom: 50px;
     font-weight: lighter;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 h4{
     color: black;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.newsletter form{
+    width: 200px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 100px 15px 10px;
+    border: 1px solid red;
+    outline: none;
+    border-radius: 30px;
+    text-align: center;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 25px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}
+span{
+    color: red;
 }
