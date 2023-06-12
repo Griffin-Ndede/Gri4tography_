@@ -1,4 +1,57 @@
-h1{
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
     color: red;
-    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: red;
+}
+.button:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.button{
+    background-color: red;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 5px 15px;
+
 }
