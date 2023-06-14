@@ -111,16 +111,16 @@ span{
 }
 .about{
     width: 100%;
-    background-color: black;
+    background-color:rgb(0, 0, 0) ;
     background-size: cover;
-    height: 75%;
+    height: 90%;
     width: 100%;
     background-position: center;
 }
 .about img{
     height: auto;
-    width: 300px;
-    padding: 50px;
+    width: 400px;
+    padding: 60px;
 }
 .about-text{
     width: 900px; 
