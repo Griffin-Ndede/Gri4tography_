@@ -113,7 +113,7 @@ span{
     width: 100%;
     background-color: black;
     background-size: cover;
-    height: 100vh;
+    height: 75%;
     width: 100%;
     background-position: center;
 }
@@ -172,13 +172,14 @@ button:hover{
     background: rgb(238, 238, 238) ;
     width: 100%;
     padding: 100px 0px;
+    height: 75%;
 
 }
 .title h2{
     color: black;
     font-size: 70px;
     width: 1130px;
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
 }
 .box{
